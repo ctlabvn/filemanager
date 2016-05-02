@@ -1,0 +1,36 @@
+{
+    "name": "crabstudio/file-manager",
+    "description": "FileManager plugin for CakePHP 3.x",
+    "keywords": ["cakephp", "cakephp 3", "backend", "filemanager", "crabstudio", "anhtuank7c"],
+    "homepage": "https://github.com/crabstudio/filemanager",
+    "license": "MIT",
+    "authors": [{
+        "name": "anhtuank7c",
+        "email": "anhtuank7c@hotmail.com"
+    }],
+    "support": {
+        "issues": "https://github.com/crabstudio/filemanager/issues",
+        "source": "https://github.com/crabstudio/filemanager"
+    },
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0",
+        "league/flysystem": "^1.0",
+        "league/flysystem-ziparchive": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FileManager\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FileManager\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
