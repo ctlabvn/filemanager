@@ -17,7 +17,8 @@
         "php": ">=5.4.16",
         "cakephp/cakephp": "~3.0",
         "league/flysystem": "^1.0",
-        "league/flysystem-ziparchive": "^1.0"
+        "league/flysystem-ziparchive": "^1.0",
+        "league/flysystem-cached-adapter": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "*"

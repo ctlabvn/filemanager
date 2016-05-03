@@ -1,0 +1,49 @@
+#container {
+	margin-top: 60px
+}
+.items-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+}
+.item {
+	border: 1px solid #ddd;
+	margin: 0px 10px 10px 0px;
+	height: 120px;
+	width: 156px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background: #333;
+	padding: 0px;
+
+}
+.item .preview {
+	height: 90px;
+}
+.item .preview img {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.item .title {
+	background: #fff;
+	color: #000;
+	font-size: 13px;
+	height: 30px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding: 6px 5px;
+}
+.item .operation {
+	background: #fff;
+	color: #000;
+	display: none;
+	padding: 5px;
+}
+.item:hover {
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	cursor: pointer;
+}

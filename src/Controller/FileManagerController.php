@@ -18,9 +18,9 @@ class FileManagerController extends AppController
      */
     public function index()
     {
-        $fileManager = $this->paginate($this->FileManager);
+        $contents = $this->Filesystem->listContents();
 
-        $this->set(compact('fileManager'));
-        $this->set('_serialize', ['fileManager']);
+        $this->set(compact('contents'));
+        $this->set('_serialize', ['contents']);
     }
 }
