@@ -13,6 +13,9 @@ composer require crabstudio/file-manager:dev-master
 # filemanager
 Cakephp 3.x File manager, compatible to text editor like TinyMce, Ckeditor
 
+# url
+http://your-project/file-manager
+
 =======
 # Demo
-[Index](http://i.imgur.com/rJVIzP2.png)
+![Index](http://i.imgur.com/rJVIzP2.png)
