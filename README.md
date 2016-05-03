@@ -1,5 +1,11 @@
 # FileManager plugin for CakePHP 3.x (Still in develop, Please wait until stable)
 
+## Idea
+
+- A file manager can deeply integrated with CakePHP 3.x 
+- A file manager that can be Authenticate and Authorize
+- Session can be php, cake or database (app.php)
+
 ## Installation
 
 You can install this plugin into your CakePHP application using [composer](http://getcomposer.org).

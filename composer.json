@@ -23,6 +23,10 @@
     "require-dev": {
         "phpunit/phpunit": "*"
     },
+    "suggest": {
+        "crabstudio/recaptcha": "Allows you to use Google recaptcha",
+        "crabstudio/email-queue": "Allows you to send bulk email"
+    },
     "autoload": {
         "psr-4": {
             "FileManager\\": "src"
