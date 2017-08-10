@@ -1,4 +1,4 @@
-# FileManager plugin for CakePHP 3.x (Still in develop, Please wait until stable)
+# FileManager plugin for CakePHP 3.x (NO LONGER MAINTAIN OR UPGRADE)
 
 Cakephp 3.x File manager, compatible to text editor like TinyMce, Ckeditor
 
